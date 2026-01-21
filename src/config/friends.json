@@ -1,0 +1,14 @@
+[
+ {
+    "name": "B站",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/f2/fe/68f2fe56-f695-6d7f-01f1-9771e65b2f26/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/400x400ia-75.webp",
+    "description": "国内著名视频分享平台～ ⭐️ ",
+    "url": "https://m.bilibili.com/"
+  },
+{
+    "name": "MIUI",
+    "icon": "https://m.mi.com/static/img/icon-header-logo3.ddf2a1c313.png",
+    "description": "为发烧而生的OS ⭐️ ",
+    "url": "https://home.miui.com/"
+  }
+]

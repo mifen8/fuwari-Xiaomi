@@ -1,0 +1,112 @@
+import type {
+	ExpressiveCodeConfig,
+	LicenseConfig,
+	NavBarConfig,
+	ProfileConfig,
+	SiteConfig,
+} from "./types/config";
+import { LinkPreset } from "./types/config";
+
+export const siteConfig: SiteConfig = {
+	title: "米粉er",
+	subtitle: "技术交流~",
+	themeColor: {
+		hue: 75, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+		fixed: false, // Hide the theme color picker for visitors
+		forceDarkMode: false, // Force dark mode and hide the light/dark switcher
+	},
+	banner: {
+		enable: true,
+		src: "/greatwall.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
+		credit: {
+			enable: true, // Display the credit text of the banner image
+			text: "Blog @mifer", // Credit text to be displayed
+			url: "https://mifer.top/", // (Optional) URL link to the original artwork or artist's page
+		},
+	},
+	toc: {
+		enable: true, // Display the table of contents on the right side of the post
+		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
+	},
+	favicon: [
+		   {
+		     src: '/favicon/icon.webp',
+		//   theme: 'light',
+		//   sizes: '32x32',
+		   }
+	],
+};
+
+export const navBarConfig: NavBarConfig = {
+  links: [
+    {
+      name: "主页",
+      url: "/", 
+      icon: "material-symbols:home", 
+      children: [
+        {
+          name: "Series",
+          url: "/series/",
+          icon: "material-symbols:view-list"
+        }
+      ]
+    },
+ LinkPreset.
+Archive,    
+		LinkPreset.About,
+		LinkPreset.Friends,
+		{
+			name: "统计",
+			url: "https://cloud.umami.is/share/ABCyfxkcTyytrxWZ", // Internal links should not include the base path, as it is automatically added
+			external: true, // Show an external link icon and will open in a new tab
+		},
+/*	{
+			name: "刷新",
+			url: "https://mifer.top/",
+			external: true,
+		},*/
+	],
+};
+
+export const profileConfig: ProfileConfig = {
+	avatar: "/avatar.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/' 原assets/images/demo-avatar.png,可选https://q2.qlogo.cn/headimg_dl?dst_uin=189563385&spec=0
+	name: "米粉er",
+	bio: "如约/Do what you promised",
+	links: [
+		/*{
+			name: "Bilibili",
+			icon: "fa6-brands: bilibili", // Visit https://icones.js.org/ for icon codes
+			// You will need to install the corresponding icon set if it's not already included
+			// `pnpm add @iconify-json/<icon-set-name>`
+			url: "https://icon-sets.iconify.design/",
+		},
+		{
+			name: "steam",
+			icon: "fa6-brands:steam",
+			url: "https://store.steampowered.com",
+		},
+		{
+			name: "GitHub",
+			icon: "fa6-brands:github",
+			url: "https://github.com/mifen8",
+		},*/
+		{
+			name: "B站",
+			icon: "fa6-brands:bilibili",
+			url: "https://space.bilibili.com/286366744",
+		},
+	],
+};
+
+export const licenseConfig: LicenseConfig = {
+	enable: true,
+	name: "CC BY-NC-SA 4.0",
+	url: "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+};
+
+export const expressiveCodeConfig: ExpressiveCodeConfig = {
+	// Note: Some styles (such as background color) are being overridden, see the astro.config.mjs file.
+	// Please select a dark theme, as this blog theme currently only supports dark background color
+	theme: "github-dark",
+};
