@@ -8,8 +8,8 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "米粉er",
-	subtitle: "技术交流~",
+	title: "MIUI",
+	subtitle: "为发烧而生",
 	themeColor: {
 		hue: 75, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: false, // Hide the theme color picker for visitors
@@ -21,8 +21,8 @@ export const siteConfig: SiteConfig = {
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: true, // Display the credit text of the banner image
-			text: "Blog @mifer", // Credit text to be displayed
-			url: "https://mifer.top/", // (Optional) URL link to the original artwork or artist's page
+			text: "Blog @MIUI", // Credit text to be displayed
+			url: "https://miui.com/", // (Optional) URL link to the original artwork or artist's page
 		},
 	},
 	toc: {
@@ -71,8 +71,8 @@ Archive,
 
 export const profileConfig: ProfileConfig = {
 	avatar: "/avatar.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/' 原assets/images/demo-avatar.png,可选https://q2.qlogo.cn/headimg_dl?dst_uin=189563385&spec=0
-	name: "米粉er",
-	bio: "如约/Do what you promised",
+	name: "MIUI",
+	bio: "为发烧而生",
 	links: [
 		/*{
 			name: "Bilibili",
@@ -94,7 +94,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "B站",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/286366744",
+			url: "https://space.bilibili.com/",
 		},
 	],
 };
