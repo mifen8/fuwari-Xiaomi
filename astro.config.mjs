@@ -39,7 +39,7 @@ export default defineConfig({
     defaultStrategy: "hover"
   },
   
-  site: "https://mifer.top/",
+  site: "https://fuwari-miui.pages.dev/",
   base: "/",
   trailingSlash: "always",
 
