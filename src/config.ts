@@ -58,7 +58,7 @@ Archive,
 		LinkPreset.Friends,
 		{
 			name: "统计",
-			url: "https://cloud.umami.is/share/ABCyfxkcTyytrxWZ", // Internal links should not include the base path, as it is automatically added
+			url: "https://github.com/umami-software/umami", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 /*	{
