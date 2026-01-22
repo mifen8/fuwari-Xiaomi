@@ -2,9 +2,9 @@
 
 基于 [Astro](https://astro.build) 开发的静态博客模板。
 
-[**🖥️在线预览（Vercel）**](https://fuwari.vercel.app)
+[**🖥️在线预览（pages）**](https://fuwari-miui.pages.dev)
 
-![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
+![Preview Image](https://github-production-user-asset-6210df.s3.amazonaws.com/251https://github-production-user-asset-6210df.s3.amazonaws.com/251536201/538459527-567ef277-3a2b-4474-9f94-244aff136ba4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260121T094455Z&X-Amz-Expires=300&X-Amz-Signature=33217b099de73da036f8783c79f62c38e348048853e2ef4f1285ebbfee8e7305&X-Amz-SignedHeaders=host536201/538459527-567ef277-3a2b-4474-9f94-244aff136ba4.png?-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260121T094455Z&X-Amz-Expires=300&X-Amz-Signature=33217b099de73da036f8783c79f62c38e348048853e2ef4f1285ebbfee8e7305&X-Amz-SignedHeaders=host)
 
 ## ✨ 功能特性
 
@@ -49,7 +49,7 @@ deno run -A npm:create-fuwari@latest
 
 ## 🚀 使用方法 2
 
-1. 使用此模板[生成新仓库](https://github.com/saicaca/fuwari/generate)或 Fork 此仓库
+1. 使用此模板[生成新仓库](https://github.com/new?template_name=fuwari-Xiaomi&template_owner=mifen8)或 Fork 此仓库
 2. 进行本地开发，Clone 新的仓库，执行 `pnpm install` 和 `pnpm add sharp` 以安装依赖  
    - 若未安装 [pnpm](https://pnpm.io)，执行 `npm install -g pnpm`
 3. 通过配置文件 `src/config.ts` 自定义博客
